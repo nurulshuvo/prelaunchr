@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('/assets/Rokkitt.woff');
+    font-weight: 400;
+    src: local('/assets/Rokkitt.woff'), url(http://fonts.gstatic.com/s/rokkitt/v7/4Z-2qkHrI1biwaOxvW6ZTA.woff) format('woff');
+}
