@@ -33,7 +33,7 @@ input,input:focus,input:active{
 	content:"";
 	margin:0;
 	padding:0;
-	background-image:url(img/neostylus.png);
+	/*background-image:url(img/neostylus.png);*/
 	background-repeat:none;
 	background-color: #222;
 	background-size: cover;
@@ -69,7 +69,7 @@ input,input:focus,input:active{
 	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	color: #000;
 	font-size:14px;
-  font-weight: 300;
+   font-weight: 300;
 	position: absolute;
 	z-index:1;
 	min-height: 100%;
@@ -136,11 +136,11 @@ p {
 		z-index: 2;
 }
 
- {
-	width: 100%;
-	text-align: left;
-	margin: 27px auto 0;
-} 	
+// {
+//	width: 100%;
+//	text-align: left;
+//	margin: 27px auto 0;
+//}
 
 .LR-box-container {
     width: 100%;	
@@ -556,7 +556,7 @@ input[type="submit"].LR-share-email-send.active {
 	display:block;
 	height:16px;
 	width:16px;
-	background:transparent url(img/social-share-links.png) no-repeat 0 0;
+	/*background:transparent url(img/social-share-links.png) no-repeat 0 0;*/
 	margin-left: 4%;
 	margin-bottom: 10px;
 	float: left;
@@ -664,8 +664,8 @@ input[type="submit"].LR-share-email-send.active {
 	width:110px;
 	margin:0;
 	padding: 1px 3px;
-	background:rgb(0,0,0) url(img/powered_by.png) no-repeat center center;
-	background:rgba(0, 0, 0, 0.85) url(img/powered_by.png) no-repeat center center;
+	/*background:rgb(0,0,0) url(img/powered_by.png) no-repeat center center;*/
+	/*background:rgba(0, 0, 0, 0.85) url(img/powered_by.png) no-repeat center center;*/
 }
 
 .LR-share-email-hide {
@@ -748,7 +748,7 @@ input[type="submit"].LR-share-email-send.active {
 .LR-lxContainer:hover .LR-lxBG {
 	opacity:1;
 	filter: alpha(opacity=100);
-	border:1px solid #fff;		
+	border:1px solid #fff;
 	-webkit-box-shadow: 0px 0px 7px rgba(50, 50, 50, 0.8);
 	-moz-box-shadow:    0px 0px 7px rgba(50, 50, 50, 0.8);
 	box-shadow:         0px 0px 7px rgba(50, 50, 50, 0.8);
@@ -790,7 +790,6 @@ input[type="submit"].LR-share-email-send.active {
 
 .LR-incentiveMssg {
     display: inline-block;
-	
     vertical-align: middle;
     width: 125px;
     margin: 0 0 0 5px;
