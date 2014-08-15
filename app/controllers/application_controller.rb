@@ -2,7 +2,6 @@ class ApplicationController < ActionController::Base
     protect_from_forgery
 
     before_filter :ref_to_cookie
-
     def mobile_device?
         if session[:mobile_param]
             session[:mobile_param] == "1"
