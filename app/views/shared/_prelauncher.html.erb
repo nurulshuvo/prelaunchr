@@ -20,16 +20,13 @@
               <div class="LR-site-description rokkitt" style="display: none;"></div><!-- .site-description -->
               <div class="LR-sign-up-container">
                 <span class="LR-sign-up-label rokkitt">STEP INSIDE AND BE THE FIRST TO KNOW</span>
-                <div class="LR-sign-up-container-inner LR-clearfix">
-                  <input type="email" class="LR-sign-up-input signup-email" placeholder="e-mail address">
-                  <input type="text" class="LR-sign-up-input first-name half" placeholder="first name" style="display: none;">
-                  <input type="text" class="LR-sign-up-input last-name half" placeholder="last name" style="display: none;">
-                  <input type="text" class="LR-sign-up-input company" placeholder="company" style="display: none;">
-                  <input type="tel" class="LR-sign-up-input phone-number half" placeholder="phone number" style="display: none;">
-                  <input type="text" class="LR-sign-up-input zipcode half" placeholder="zipcode" style="display: none;">
-                  <input type="text" class="LR-sign-up-input birthdate half" placeholder="birthdate mm/dd/yy" style="display: none;">
-                  <input type="submit" name="submit" title="GO" value="GO" class="LR-sign-up-submit">
-                </div><!-- .sign-up-container-inner -->
+                <!--<div class="LR-sign-up-container-inner LR-clearfix">-->
+                  <%= form_for @user, :url => { :action => "create" }, html: {class: 'LR-sign-up-container-inner LR-clearfix'} do |f| %>
+                      <%= f.text_field :email, :placeholder => 'e-mail address', :class => 'LR-sign-up-input signup-email', size: nil %>
+                      <!--<input class="LR-sign-up-submit" name="commit" type="submit" title="GO" value="GO" />-->
+                      <%= f.submit 'GO', class: 'LR-sign-up-submit', title: 'GO' %>
+                  <% end %>
+                <!--</div>&lt;!&ndash; .sign-up-container-inner &ndash;&gt;-->
               </div><!-- .sign-up-container -->
             </div><!-- .sign-up -->
           </div><!-- .box-inner -->
@@ -96,28 +93,6 @@
                   </ul>
                 </div><!-- .share-connect -->
               </div><!-- .site-share-inner -->
-
-              <!--<div class="LR-lxWrapper LR-clearfix">-->
-                <!--<div class="LR-lxMssg rokkitt">Based on this sign up, we think you'll love...</div>-->
-                <!--<div class="LR-lxContainer LR-lxCompanyOne">-->
-                  <!--<div class="LR-lxBG"></div>-->
-									<!--<span class="LR-lxImg">-->
-										<!--<img src="./fourpalitos - Your Beach Day Un Poquito Más Awesome_files/lx.jpg" alt="img">-->
-									<!--</span>-->
-                  <!--<div class="LR-lxTxt">-->
-                    <!--This is a sample text, written as a placeholder. 60 characters.-->
-                  <!--</div>-->
-                <!--</div>&lt;!&ndash; .LR-lxContainer &ndash;&gt;-->
-                <!--<div class="LR-lxContainer LR-right LR-lxCompanyTwo">-->
-                  <!--<div class="LR-lxBG"></div>-->
-                  <!--<div class="LR-lxImg">-->
-                    <!--<img src="./fourpalitos - Your Beach Day Un Poquito Más Awesome_files/lx.jpg" alt="img">-->
-                  <!--</div>-->
-                  <!--<div class="LR-lxTxt">-->
-                    <!--This is a sample text, written as a placeholder. 60 characters.-->
-                  <!--</div>-->
-                <!--</div>&lt;!&ndash; .LR-lxContainer &ndash;&gt;-->
-              <!--</div>&lt;!&ndash; .LR-lxWrapper &ndash;&gt;-->
 
             </div><!-- .site-share-container -->
           </div><!-- .site-share -->

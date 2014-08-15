@@ -77,6 +77,12 @@ input[type="submit"].LR-share-email-send {
 	width:292px;
 }
 
+/*input[type="submit"].LR-sign-up-submit{*/
+    /*position: absolute;*/
+    /*top: 19px !important;*/
+    /*left: 247px;*/
+/*}*/
+
 input.LR-share-email-emails[type="email"] {
 	width: 227px;
 }
@@ -171,4 +177,12 @@ input.LR-share-link {
     display: inline-block;
     vertical-align: middle;
     margin: 0 0 0 10px;
+}
+
+input.LR-sign-up-input[type="email"],
+input.LR-sign-up-input[type="text"],
+input.LR-sign-up-input[type="date"],
+input.LR-sign-up-input[type="tel"],
+input.LR-sign-up-input[type="number"] {
+    width: 227px;
 }

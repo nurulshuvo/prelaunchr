@@ -1,15 +1,17 @@
 <!DOCTYPE html>
+<html>
 <head>
   <link rel="icon" href="<%= asset_path('favicon.png') %>" type="image/x-icon">
   <link rel="shortcut icon" href="<%= asset_path('favicon.png') %>" type="image/x-icon">
   <%= stylesheet_link_tag "application.css", :media => "all" %>
+  <!--<link rel="stylesheet" type="text/css" href="<%#= asset_path 'neostylus.css' %>">-->
+  <link rel="stylesheet" type="text/css" href="<%= asset_path 'neostylus-mobile.css' %>" media="only screen and (min-device-width : 320px) and (max-device-width : 480px)">
   <%= render 'shared/headers' %>
   <%= csrf_meta_tags %>
 </head>
 <body cz-shortcut-listen="true">
 
-<%#= yield %>
-<%= render 'shared/prelauncher' %>
+<%= yield %>
 
 </body>
 </html>
