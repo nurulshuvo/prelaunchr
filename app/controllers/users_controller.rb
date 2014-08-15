@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
     before_filter :skip_first_page, :only => :new
+    layout 'refer_layout', only: :refer
 
     def new
         @bodyId = 'home'
@@ -64,13 +65,14 @@ class UsersController < ApplicationController
     end
 
     def refer
+
         email = cookies[:h_email]
 
         @bodyId = 'refer'
         @is_mobile = mobile_device?
 
         @user = User.find_by_email(email)
-
+        #render(:layout => 'layouts/refer_layout')
         respond_to do |format|
             if !@user.nil?
                 format.html #refer.html.erb

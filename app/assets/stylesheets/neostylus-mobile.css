@@ -186,3 +186,7 @@ input.LR-sign-up-input[type="tel"],
 input.LR-sign-up-input[type="number"] {
     width: 227px;
 }
+
+.LR-site-logo{
+    height: auto;
+}
