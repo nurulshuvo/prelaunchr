@@ -72,7 +72,6 @@ class UsersController < ApplicationController
         @is_mobile = mobile_device?
 
         @user = User.find_by_email(email)
-        #render(:layout => 'layouts/refer_layout')
         respond_to do |format|
             if !@user.nil?
                 format.html #refer.html.erb
