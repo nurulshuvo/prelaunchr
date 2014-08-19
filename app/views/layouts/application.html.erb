@@ -6,6 +6,8 @@
   <%= stylesheet_link_tag "application.css", :media => "all" %>
   <!--<link rel="stylesheet" type="text/css" href="<%#= asset_path 'neostylus.css' %>">-->
   <link rel="stylesheet" type="text/css" href="<%= asset_path 'neostylus-mobile.css' %>" media="only screen and (min-device-width : 320px) and (max-device-width : 480px)">
+  <link rel="stylesheet" href="<%= asset_path 'mediaqueries.css' %>"/>
+  <%= javascript_include_tag 'application.js' %>
   <%= render 'shared/headers' %>
   <%= csrf_meta_tags %>
 </head>

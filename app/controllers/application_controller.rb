@@ -2,6 +2,7 @@ class ApplicationController < ActionController::Base
     protect_from_forgery
 
     before_filter :ref_to_cookie
+    before_filter :mailer_set_url_options
     def mobile_device?
         if session[:mobile_param]
             session[:mobile_param] == "1"
@@ -11,6 +12,10 @@ class ApplicationController < ActionController::Base
     end
 
     protected
+
+    def mailer_set_url_options
+      ActionMailer::Base.default_url_options[:host] = request.host_with_port
+    end
 
     def ref_to_cookie
         if params[:ref] && !Rails.application.config.ended

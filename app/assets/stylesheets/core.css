@@ -313,8 +313,6 @@ html.home{
 #refer .mammoth{
     width: 612px;
     height: 394px;
-    /*background: url(/assets/refer/mammoth.png) 0 0 no-repeat;*/
-    /*background-size: 610px 394px;*/
     overflow: hidden;
     margin-top: 15px;
     float: left;
@@ -635,8 +633,8 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
     #home .hero{
-        background: url(/assets/home/hero@2x.jpg) center center no-repeat;
-        background-size: 1600px 446px;
+        /*background: url(/assets/home/hero@2x.jpg) center center no-repeat;*/
+        /*background-size: 1600px 446px;*/
     }
 
     #home .form-wrap .key{
@@ -650,8 +648,8 @@ only screen and (min-device-pixel-ratio: 2) {
     }
 
     #refer .mammoth{
-        background: url(/assets/refer/mammoth@2x.png) 0 0 no-repeat;
-        background-size: 610px 394px;
+        /*background: url(/assets/refer/mammoth@2x.png) 0 0 no-repeat;*/
+        /*background-size: 610px 394px;*/
     }
 
     #refer .share-wrap .social-links .fb{

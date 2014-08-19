@@ -38,6 +38,10 @@
 	font-size: 34px;
 	text-align:left;
 	margin: 10px 0 20px;
+    /*font-size: 28px;*/
+    /*text-align: left;*/
+    /*margin: 10px 0px 40px;*/
+    /*width: 66%;*/
 }
 
 .LR-site-incentive {
@@ -190,3 +194,20 @@ input.LR-sign-up-input[type="number"] {
 .LR-site-logo{
     height: auto;
 }
+
+/*mobile background*/
+
+.LR-bg-img {
+    background-position: 82% 5%
+}
+
+
+
+/*@media screen and (device-aspect-ratio: 2/3) {.LR-site-tagline p{font-size:35px;}}*/
+
+/*@media screen and (device-aspect-ratio: 40/71) {.LR-site-tagline p{font-size:35px;}}*/
+/*@media only screen and (min-device-width : 480px){*/
+    /*.LR-bg-img {*/
+        /*background-position: center top;*/
+    /*}*/
+/*}*/

@@ -1,0 +1,89 @@
+
+@media screen and (max-width: 320px){
+    .LR-site-tagline {
+        font-size: 22px;
+        text-align: left;
+        margin: 10px 0px 40px;
+        width: 66%;
+    }
+
+    input.LR-sign-up-input[type="email"], input.LR-sign-up-input[type="text"], input.LR-sign-up-input[type="date"], input.LR-sign-up-input[type="tel"], input.LR-sign-up-input[type="number"] {
+        width: 136px;
+    }
+    .LR-sign-up-container {
+        margin: 50px 0px 0px;
+    }
+    .LR-box-container {
+        border: medium none;
+        padding: 0px;
+        width: 100%;
+        margin: 91px -1px;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    .LR-box-wrapper {
+        margin: -26px 3%;
+    }
+    .LR-site-logo img {
+        width: 49%;
+    }
+
+    .LR-site-tagline {
+        font-size: 25px;
+        text-align: left;
+        margin: 0px 0px 15px;
+    }
+}
+
+
+@media screen and (max-width: 360px){
+    .LR-site-tagline {
+        font-size: 22px;
+        text-align: left;
+        margin: 10px 0px 40px;
+        width: 66%;
+    }
+
+    input.LR-sign-up-input[type="email"], input.LR-sign-up-input[type="text"], input.LR-sign-up-input[type="date"], input.LR-sign-up-input[type="tel"], input.LR-sign-up-input[type="number"] {
+        width: 136px;
+    }
+    .LR-sign-up-container {
+        margin: 50px 0px 0px;
+    }
+    .LR-box-container {
+        border: medium none;
+        padding: 0px;
+        width: 100%;
+        margin: 91px -1px;
+    }
+}
+
+@media screen and (max-width: 640px){
+
+    .LR-box-wrapper {
+        margin: -26px 3%;
+    }
+    .LR-site-logo img {
+        width: 49%;
+    }
+
+    .LR-site-tagline {
+        font-size: 25px;
+        text-align: left;
+        margin: 0px 0px 15px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .LR-bg-img {
+        background-position: 86% 0%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .LR-bg-img {
+        background-position: 86% 0%;
+    }
+}

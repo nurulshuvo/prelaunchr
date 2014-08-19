@@ -1,7 +1,7 @@
 class User < ActiveRecord::Base
     belongs_to :referrer, :class_name => "User", :foreign_key => "referrer_id"
     has_many :referrals, :class_name => "User", :foreign_key => "referrer_id"
-    
+
     attr_accessible :email
 
     validates :email, :uniqueness => true, :format => { :with => /\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/i, :message => "Invalid email format." }
@@ -52,6 +52,7 @@ class User < ActiveRecord::Base
     end
 
     def send_welcome_email
-        UserMailer.delay.signup_email(self)
+        # UserMailer.delay.signup_email(self)
+        UserMailer.signup_email(self)
     end
 end

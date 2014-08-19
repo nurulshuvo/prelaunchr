@@ -82,8 +82,8 @@ class UsersController < ApplicationController
     end
 
     def policy
-          
-    end  
+
+    end
 
     def redirect
         redirect_to root_path, :status => 404
