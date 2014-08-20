@@ -274,13 +274,6 @@ html {
     position: relative;
 }
 
-@media screen and (min-width: 800px){
-    #refer .prizes .page-content{
-        width: 80%;
-        /*margin: 0 auto;*/
-    }
-}
-
 #refer .header{
     height: 50px;
     background: #074E6F;
