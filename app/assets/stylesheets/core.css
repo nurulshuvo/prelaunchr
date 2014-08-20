@@ -390,7 +390,7 @@ html {
 }
 
 #refer .share-wrap .social-links{
-    width: 120px;
+    /*width: 120px;*/
     height: 37px;
     margin: 25px auto 0;
     text-align: center;
@@ -403,17 +403,17 @@ html {
 #refer .share-wrap .social-links .fb{
     /*background: url(/assets/refer/fb.png);*/
     background: url('facebook.jpg');
-    background-size: 27px 27px;
-    width: 27px;
-    height: 27px;
+    background-size: 45px 45px;
+    width: 45px;
+    height: 45px;
 }
 
 #refer .share-wrap .social-links .twit{
     /*background: url(/assets/refer/twit.png);*/
     background: url('twitter.png');
-    background-size: 27px 27px;
-    width: 27px;
-    height: 27px;
+    background-size: 45px 45px;
+    width: 45px;
+    height: 45px;
 }
 
 #refer .share-wrap .social-links .sep{
@@ -679,13 +679,13 @@ only screen and (min-device-pixel-ratio: 2) {
     }
 
     #refer .share-wrap .social-links .fb{
-        background: url(/assets/refer/fb@2x.png);
-        background-size: 27px 27px;
+        background: url('facebook.jpg');
+        background-size: 45px 45px;
     }
 
     #refer .share-wrap .social-links .twit{
-        background: url(/assets/refer/twit@2x.png);
-        background-size: 27px 27px;
+        background: url('twitter.png');
+        background-size: 45px 45px;
     }
 
     #refer .prizes .progress{
