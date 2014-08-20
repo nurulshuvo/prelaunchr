@@ -1,0 +1,62 @@
+@media screen and (max-width: 1920px){
+    .prizes {
+        height: 411px;
+    }
+}
+
+
+@media screen and (max-width: 1280px){
+    html {
+        background-position: 75% 45%;
+    }
+    .prizes {
+        height: 488px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    html {
+        background-position: 80% 50%;
+    }
+}
+
+
+@media screen and (max-width: 980px){
+    .prizes {
+        height: 788px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    html {
+        background-position: 87% 50%;
+    }
+    .prizes {
+        height: 1428px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    html {
+        background-position: 88% 45%;
+    }
+    .prizes {
+        height: 532px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .prizes{height: 788px;}
+}
+
+@media screen and (max-width: 480px){
+    html {
+        background-position: 88% 45%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    html {
+        background-position: 88% 45%;
+    }
+}
