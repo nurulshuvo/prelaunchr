@@ -7,10 +7,10 @@
 
 @media screen and (max-width: 1280px){
     html {
-        background-position: 75% 45%;
+        background-position: left bottom;
     }
     .prizes {
-        height: 488px;
+        height: auto;
     }
 }
 
