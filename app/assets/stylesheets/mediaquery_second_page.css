@@ -12,5 +12,6 @@
 @media all and (max-width: 500px){
     #refer .share-wrap .why{font-size: 12px;}
     #refer .share-wrap .title{font-size: 26px;}
-    #refer .share-wrap .subtitle{font-size: 10px}
+    #refer .share-wrap .subtitle{font-size: 10px;}
+    #refer .share-wrap{width: 518px;}
 }
