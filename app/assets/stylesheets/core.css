@@ -264,7 +264,7 @@ html.home{
 
 #refer .header{
     height: 50px;
-    background: #074E6F;
+    background: #000000;
     width: 100%;
     overflow:hidden;
     z-index: 1;
@@ -405,10 +405,10 @@ html.home{
     background: #BAB9BA;
     margin: 0 20px;
 }
-
+html{background: black}
 #refer .prizes{
     width: 100%;
-    background: #FFF;
+    background: black;
     border-top: 1px solid #D2D1C8;
     padding-bottom: 100px;
 }
@@ -420,7 +420,7 @@ html.home{
 #refer .prizes .callout{
     text-align: center;
     font-size: 16px;
-    color: #074E6F;
+    color: white;
     font-weight: bold;
     margin: 20px 0 0 0;
     letter-spacing: 2px;
@@ -468,7 +468,7 @@ html.home{
 #refer .prizes .products li.title{
     height: 100%;
     text-transform: uppercase;
-    color: #074E6F;
+    color: white;
     font-weight: 500;
     font-size: 14px;
     float: left;
@@ -489,7 +489,7 @@ html.home{
 
 #refer .prizes .products li.product{
     height: 100%;
-    color: #074E6F;
+    color: white;
     width: 125px;
     margin-right: 129px;
     float: left;
@@ -584,20 +584,20 @@ html.home{
 #refer .prizes p.place{
     text-align: center;
     font-size: 16px;
-    color: #074E6F;
+    color: white;
     width: 100%;
     font-weight: 500;
     margin-top: 30px;
 }
 
 #refer .prizes p.place span{
-    color: #995F5E;
+    color: #FF9B01;
 }
 
 #refer .prizes p.check{
     text-align: center;
     font-size: 16px;
-    color: #858181;
+    color: white;
     width: 100%;
     font-weight: 500;
     margin-top: 5px;
@@ -606,7 +606,7 @@ html.home{
 #refer .prizes p.ship{
     text-align: center;
     font-size: 16px;
-    color: #858181;
+    color: white;
     width: 100%;
     font-weight: 500;
     margin-top: 50px;
@@ -615,7 +615,7 @@ html.home{
 #refer .prizes a.policy{
     text-align: center;
     font-size: 12px;
-    color: #CCCCCC;
+    color: white;
     width: 100%;
     font-weight: 500;
     margin-top: 5px;
