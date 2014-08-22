@@ -3,9 +3,8 @@
     #refer .header{width: 1120px;}
 }
 
-/*@media all and (max-width: 1224px){*/
-    /*#refer .hero{*/
-
-        /*background: url('background2.jpg') left bottom no-repeat;*/
-    /*}*/
-/*}*/
+@media all and (min-width: 1920px){
+    #refer .hero{
+        height: 557px;
+    }
+}

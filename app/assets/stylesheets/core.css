@@ -305,11 +305,14 @@ html.home{
     background: #F1F0EE;
     height: 391px;
     overflow: hidden;
-    /*background: url('background2.jpg') left -290px no-repeat;*/
-    background: url('background2.jpg') left -239px no-repeat;
-    /*background-size: 610px 391px;*/
+    background: url('background2.jpg') left 60% no-repeat;
     background-size: cover;
 }
+
+/*#refer .hero img{*/
+    /*width: 1920px;*/
+    /*height: 391px;*/
+/*}*/
 
 #refer .mammoth{
     width: 612px;
