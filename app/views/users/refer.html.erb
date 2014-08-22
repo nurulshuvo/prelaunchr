@@ -62,19 +62,19 @@
       <%
          words = ''
          if referrals_count == 1
-           words = 'friend has'
+           words = 'FRIEND HAS'
          elsif
-         words = 'friends have'
+         words = 'FRIENDS HAVE'
          end
 
       %>
 
       <% if referrals_count == 0 %>
-          <p class="place brandon"><span>No</span> friends have joined...Yet!</p>
+          <p class="place brandon"><span>0</span> FRIEND HAVE JOINED!</p>
       <% else %>
-          <p class="place brandon"><span><%= referrals_count %></span> <%= words %> joined</p>
+          <p class="place brandon"><span><%= referrals_count %></span> <%= words %> JOINED</p>
       <% end %>
-      <p class="check brandon">Keep checking</p>
+      <p class="check brandon">Keep Checking</p>
 
       <p class="ship brandon">We ship to the U.S. (& Canada Soon)</p>
       <a class="policy brandon" href="/privacy-policy" target="_blank">Privacy Policy</a>
