@@ -434,7 +434,8 @@ html{background: black}
 #refer .prizes .progress{
     height: 4px;
     width: 100%;
-    background: url(/assets/refer/progress-bg.png) 0 0 repeat-x;
+    /*background: url(/assets/refer/progress-bg.png) 0 0 repeat-x;*/
+    background: #868282;
     background-size: 1px 4px;
     position: absolute;
     top: 100px;
@@ -667,7 +668,7 @@ only screen and (min-device-pixel-ratio: 2) {
     }
 
     #refer .prizes .progress{
-        background: url(/assets/refer/progress-bg@2x.png) 0 0 repeat-x;
+        /*background: url(/assets/refer/progress-bg@2x.png) 0 0 repeat-x;*/
         background-size: 1px 4px;
     }
 
