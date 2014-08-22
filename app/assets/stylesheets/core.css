@@ -305,7 +305,8 @@ html.home{
     background: #F1F0EE;
     height: 391px;
     overflow: hidden;
-    background: url('background2.jpg') left -302px no-repeat;
+    /*background: url('background2.jpg') left -290px no-repeat;*/
+    background: url('background2.jpg') left -239px no-repeat;
     /*background-size: 610px 391px;*/
     background-size: cover;
 }
