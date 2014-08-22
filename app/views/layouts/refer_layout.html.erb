@@ -13,14 +13,14 @@
   <meta property="og:description" content="Shaving is evolving. Didn’t want to leave you all behind. Check out Harry’s here."/>
   <meta property="og:image" content="<%= asset_path("refer/truman.png") %>"/>
   <meta property="og:url" content="<%= root_url %>"/>
-  <% if @is_mobile %>
-      <% if @bodyId == 'home' %>
-          <meta name="viewport" content="width=1600" />
-      <% else %>
-          <meta name="viewport" content="width=1120" />
+  <%# if @is_mobile %>
+      <%# if @bodyId == 'home' %>
+          <!--<meta name="viewport" content="width=1600" />-->
+      <%# else %>
+          <!--<meta name="viewport" content="width=1120" />-->
           <!--<meta name="viewport" content="height=device-height">-->
-      <% end %>
-  <% end %>
+      <%# end %>
+  <%# end %>
   <meta name="viewport" content="width=1120" />
   <%= javascript_include_tag 'application.js' %>
   <%= stylesheet_link_tag "core.css", :media => "all" %>
