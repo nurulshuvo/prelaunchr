@@ -9,15 +9,15 @@
     }
 }
 
-@media all and (max-width: 500px){
-    #refer .share-wrap .why{font-size: 5px;}
-    #refer .share-wrap .title{font-size: 5px;}
-    #refer .share-wrap .subtitle{font-size: 5px; display: none;}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px){
+    #refer .share-wrap .why{font-size: 9px;}
+    #refer .share-wrap .title{font-size: 9px;}
+    #refer .share-wrap .subtitle{font-size: 9px;}
     #refer .share-wrap .copy-link{
         width: auto;
         white-space: nowrap;
         overflow: hidden;
     }
-    #refer .share-wrap{width: 600px;}
-    #refer .hero{height: 700px;}
 }
