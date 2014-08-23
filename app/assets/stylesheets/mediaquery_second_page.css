@@ -11,8 +11,12 @@
 
 @media all and (max-width: 500px){
     #refer .share-wrap .why{font-size: 5px;}
-    #refer .share-wrap .title{font-size: 12px;}
+    #refer .share-wrap .title{font-size: 5px;}
     #refer .share-wrap .subtitle{font-size: 5px;}
-    #refer .share-wrap .copy-link{ width: auto; }
+    #refer .share-wrap .copy-link{
+        width: auto;
+        white-space: nowrap;
+        overflow: hidden;
+    }
     #refer .share-wrap{width: 600px;}
 }
