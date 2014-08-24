@@ -11,8 +11,8 @@
 
 @media only screen
 and (min-device-width : 320px) and (max-device-width : 600px){
-    #refer .share-wrap .why{font-size: 12px;margin-top: 30px;}
-    #refer .share-wrap .title{font-size: 12px;margin-top: 10px;line-height: 19px;}
+    #refer .share-wrap .why{font-size: 14px;margin-top: 30px;}
+    #refer .share-wrap .title{font-size: 14px;margin-top: 10px;line-height: 19px;}
     #refer .share-wrap .subtitle{font-size: 12px;margin-top: 10px;}
     #refer .share-wrap .copy-link{
         margin: 10px auto 0;
