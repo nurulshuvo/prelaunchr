@@ -26,7 +26,7 @@ and (min-device-width : 320px) and (max-device-width : 600px){
     }
 
     #refer .share-wrap{width:500px; position: relative;top:10px;}
-    #refer .hero{height: 420px;}
+    #refer .prizes .products li.title{font-size: 10px;}
 }
 
 /*@media only screen*/
