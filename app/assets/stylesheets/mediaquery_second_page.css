@@ -12,8 +12,8 @@
 @media only screen
 and (min-device-width : 320px) and (max-device-width : 568px){
     #refer .share-wrap .why{font-size: 11px;margin-top: 15px;}
-    #refer .share-wrap .title{font-size: 11px;margin-top: 0px;line-height: 19px;}
-    #refer .share-wrap .subtitle{font-size: 11px;margin-top: 0px;}
+    #refer .share-wrap .title{font-size: 11px;margin-top: 2px;line-height: 19px;}
+    #refer .share-wrap .subtitle{font-size: 11px;margin-top: 2px;}
     #refer .share-wrap .copy-link{
         margin: 5px auto 0;
         width: auto;
@@ -22,7 +22,7 @@ and (min-device-width : 320px) and (max-device-width : 568px){
     }
 
     #refer .share-wrap .social-links{
-        margin: 8px auto 0;
+        margin: 8px auto 1px;
     }
 
     #refer .share-wrap{width:500px;}
