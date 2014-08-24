@@ -12,17 +12,17 @@
 @media only screen
 and (min-device-width : 320px) and (max-device-width : 600px){
     #refer .share-wrap .why{font-size: 12px;margin-top: 30px;}
-    #refer .share-wrap .title{font-size: 12px;margin-top: 6px;line-height: 19px;}
-    #refer .share-wrap .subtitle{font-size: 12px;margin-top: 6px;}
+    #refer .share-wrap .title{font-size: 12px;margin-top: 10px;line-height: 19px;}
+    #refer .share-wrap .subtitle{font-size: 12px;margin-top: 10px;}
     #refer .share-wrap .copy-link{
-        margin: 5px auto 0;
-        width: auto;
-        white-space: nowrap;
-        overflow: hidden;
+        margin: 10px auto 0;
+        /*width: auto;*/
+        /*white-space: nowrap;*/
+        /*overflow: hidden;*/
     }
 
     #refer .share-wrap .social-links{
-        margin: 10px auto 1px;
+        margin: 15px auto 1px;
     }
 
     #refer .share-wrap{width:500px;}
