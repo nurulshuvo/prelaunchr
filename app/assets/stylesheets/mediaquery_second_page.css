@@ -16,9 +16,9 @@ and (min-device-width : 320px) and (max-device-width : 600px){
     #refer .share-wrap .subtitle{font-size: 12px;margin-top: 10px;}
     #refer .share-wrap .copy-link{
         margin: 10px auto 0;
-        /*width: auto;*/
-        /*white-space: nowrap;*/
-        /*overflow: hidden;*/
+        width: auto;
+        white-space: nowrap;
+        overflow: hidden;
     }
 
     #refer .share-wrap .social-links{
