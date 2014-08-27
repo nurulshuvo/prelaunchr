@@ -18,7 +18,7 @@ and (min-device-width : 320px) and (max-device-width : 600px){
         margin: 10px auto 0;
         /*width: auto;*/
         /*white-space: nowrap;*/
-        overflow: hidden;
+        /*overflow: hidden;*/
     }
 
     #refer .share-wrap .social-links{
