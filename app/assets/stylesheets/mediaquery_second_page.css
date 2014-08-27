@@ -27,6 +27,11 @@ and (min-device-width : 320px) and (max-device-width : 600px){
 
     #refer .share-wrap{width:500px; position: relative;top:10px;}
     #refer .prizes .products li.title{font-size: 10px;}
+
+    #refer .prizes .products li.title{
+        font-weight: normal;
+        font-size: 12px;
+    }
 }
 
 /*@media only screen*/
